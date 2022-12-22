@@ -1,0 +1,44 @@
+[
+  {
+    "name": "iphone 14",
+    "price": 143,
+    "feature": true,
+    "company": "apple"
+  },
+  {
+    "name": "8pro",
+    "price": 143,
+    "feature": true,
+    "company": "mi"
+  },
+  {
+    "name": "note 22",
+    "price": 103,
+    "feature": true,
+    "company": "sumsang"
+  },
+  {
+    "name": "iphone 13",
+    "price": 135,
+    "feature": true,
+    "company": "apple"
+  },
+  {
+    "name": "notebook 3",
+    "price": 1435,
+    "feature": true,
+    "company": "dell"
+  },
+  {
+    "name": "c3",
+    "price": 2000,
+    "feature": true,
+    "company": "xiaomi"
+  },
+  {
+    "name": "pixel5",
+    "price": 700,
+    "feature": true,
+    "company": "google"
+  }
+]
