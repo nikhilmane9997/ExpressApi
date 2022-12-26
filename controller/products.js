@@ -31,10 +31,10 @@ const getAllProducts = async (req, res) => {
 };
 
 const getAllTesting = async (req, res) => {
-  const { company, name, sort } = req.query;
+  const { name } = req.query;
   const queryObject = {};
-  if (company) {
-    queryObject.company = { $regex: company, $options: "i" };
+  if (name) {
+    queryObject.name = name;
   }
   const TestingDetails = await products.find(queryObject);
   res.status(200).json({ TestingDetails });
